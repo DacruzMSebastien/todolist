@@ -1,0 +1,62 @@
+
+  body {
+    font-family: 'Indie Flower', cursive;
+    background-color: #53387f;
+    background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
+  }
+
+div {
+  text-align: center;
+  margin: auto;
+  margin-top: 20vh;
+  padding: 30px;
+  box-sizing: border-box;
+  width: 30%;
+  border: 2px solid #FFF970 ;
+  border-radius: 20px;
+  background-color: ##3a0880;
+  background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+section {
+  margin: 10px;
+  padding: 10px;
+}
+
+h1 {
+  color: #FFCD4E;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-shadow: 2px 2px black;
+}
+
+p {
+text-decoration: line-through;
+}
+
+li {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  vertical-align: auto;
+}
+
+.button, .text {
+  background: none;
+  border: none;
+  color: #FFF970;
+}
+
+
+.button {
+  border-left: 1px solid #FFCD4E;
+  cursor: crosshair;
+
+}
+
+.button:hover {
+background-color: #FFCD4E;
+color: #53387F;
+}
